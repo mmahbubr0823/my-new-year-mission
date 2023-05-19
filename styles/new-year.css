@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+
+.Header {
+    background-image: url('../images/banner/banner1.png');
+    width: 100%;
+    height: 808px;
+    margin-bottom: 130px;
+}
+.header-details {
+    text-align: right;
+}
+.header-info {
+    padding: 216px 230px 160px 845px;
+}
+.header-info h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #151414;
+}
+.header-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contact-btn {
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* failure styles */
+
+.failure-container {
+    display: flex;
+    padding: 0 200px 130px 230px;
+    align-items: center;
+    gap: 140px;
+}
+.failure {
+    padding-top: 300px;
+}
+.failure h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failure-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#check p {
+    margin-bottom: 8px;
+}
+
+/* about styles */
+
+.about-me {
+    margin: 0 230px 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+.about-container {
+    padding: 130px 155px;
+    text-align: center;
+}
+.about-container h2 {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+.about-container .details {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 30px;
+}
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.credential {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.value {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin-top: 8px;
+}
+
+/* my plan styles */
+
+.my-plan {
+    margin: 0 230px 130px;
+    text-align: center;
+}
+.my-plan h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.my-skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 56px;
+}
+
+.skill h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.skill p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    line-height: 29px;
+}
+
+/* positive mind styles */
+
+.positive-mind {
+    margin: 0 230px 130px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+}
+
+.positive-info {
+    padding: 60px 600px 60px 64px;
+}
+
+.positive-info h2 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.positive-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer styles */
+
+footer {
+    width: 100%;
+    height: 570px;
+    background: #151414;
+    color: white;
+}
+.footer-container {
+    display: flex;
+    gap: 330px;
+    padding: 130px 230px;
+}
+.future h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.future .future-details {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.phone {
+    margin: 16px 0;
+}
+.icon {
+    display: flex;
+    gap: 20px;
+}
+.subscribe h1{
+    font-size: 45px;
+    font-weight: 700px;
+}
+.subscribe form input {
+    width: 325px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
